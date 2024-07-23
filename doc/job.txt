@@ -1,0 +1,30 @@
+-map ---V
+-decor map --v
+-trap: thorn, --v
+-colectible object --v
+-enemy --v
+-effect system: dust, ghots, blood,.... ---v
+-UI --v
+-Save: player --v, enemy , buff
+
+
+-sound:
+
+-npc: 1: nói bình thường  ---v
+      2: nói bình thường  ---v
+      3: nói bình thường  
+      4: nói rồi kích hoạt fire skull
+      5; nói rồi đẩy dịch chuyển lên golem boss
+      audio text
+
+
+-text giới thiệu khu vực ---v
+-điểm hồi sinh ---v
+-camera bound ---v
+-shake camera ---v
+-tiếng shake camera ---v
+-bmg ---v
+-button,click ---v
+-audio ---v
+-loading ---v
+-save audio

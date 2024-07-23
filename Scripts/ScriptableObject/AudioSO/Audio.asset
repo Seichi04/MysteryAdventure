@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cc2c0b2320736649b308860c518946c, type: 3}
+  m_Name: Audio
+  m_EditorClassIdentifier: 
+  Move_LadderAudio: {fileID: 8300000, guid: d88e6bd959ff29740b3eed6ab266ea36, type: 3}
+  JumpAudio: {fileID: 8300000, guid: 16b25c9ece7ee9544b53f094515e14c0, type: 3}
+  LandAudio: {fileID: 8300000, guid: 573ad1482cf3e214a8038ddb0b8bf922, type: 3}
+  NomalAttackAudio: {fileID: 8300000, guid: 79959a6dd3a246145a9439892413b73c, type: 3}
+  DashAttackAudio: {fileID: 8300000, guid: 5817744360c86084f9e1619217aef86e, type: 3}
+  HurtAudio: {fileID: 8300000, guid: 583d5f249d84cc44bb4ae8abd6c0e098, type: 3}
+  DeathAudio: {fileID: 8300000, guid: 583d5f249d84cc44bb4ae8abd6c0e098, type: 3}
+  SlideAudio: {fileID: 8300000, guid: 898ede2bf7f42b246970c0318305bf55, type: 3}
+  DashAudio: {fileID: 8300000, guid: d7ed38f3b0bbe2c4da4fcbfcc2b1a594, type: 3}
+  ClickButtonAudio: {fileID: 8300000, guid: 91d65684e129a90419c455ca0ee90d65, type: 3}
+  DialogText: {fileID: 8300000, guid: 651fa85678bb1154f975e9820be34172, type: 3}
+  CollectBuffAudio: {fileID: 8300000, guid: 6e40ebdc245496f4f81d8aa13fab18b4, type: 3}
+  FireSkullVoice: {fileID: 8300000, guid: 0f409be98ecc24e2990b7776639f37b8, type: 3}
+  FireSkullDash: {fileID: 8300000, guid: f26536339463f3349b71d2f48f753ca3, type: 3}
+  FlyDemonShoot: {fileID: 8300000, guid: 557b5581a484f794b82dcd458816e743, type: 3}
+  Fly1: {fileID: 8300000, guid: d9213b6dd1a66e0408f1ee4ce4ec5e6e, type: 3}
+  Fly2: {fileID: 8300000, guid: 4adfcd87e4f8a3446a216ee98e2c0c74, type: 3}
+  Fly3: {fileID: 8300000, guid: bec10f0a05a2e5d4da96bc07138ce3d4, type: 3}
+  Fly4: {fileID: 8300000, guid: e519603f75f03b043ad92897c4e20ec9, type: 3}
+  Fly5: {fileID: 8300000, guid: 65a1fe5eabfa89b4e8b8d17a36d6832f, type: 3}
+  LizardShoot: {fileID: 8300000, guid: 557b5581a484f794b82dcd458816e743, type: 3}
+  OrcVoiceNomal: {fileID: 8300000, guid: 792f9e24be9b040cbac3d04bae6ecc7f, type: 3}
+  OrcAttack: {fileID: 8300000, guid: 5ab9bbc7d1ed6344eb3bea0221eebdfd, type: 3}
+  SkeletonWalk: {fileID: 8300000, guid: b04cf8501cb49e340a80bb6e111a7d08, type: 3}
+  StoneGolemShoot: {fileID: 8300000, guid: 4060ecc258f6241428b6b66e07fe0349, type: 3}
+  StoneGolemLaser: {fileID: 8300000, guid: 8ddc47ee3b4723545b2c21381dd4a938, type: 3}
+  StoneGolemDash: {fileID: 8300000, guid: f26536339463f3349b71d2f48f753ca3, type: 3}
+  Scene1Start: {fileID: 8300000, guid: 41c92f1ec15ea7d4cb92207196b86c62, type: 3}
+  Scene1Cave: {fileID: 8300000, guid: 7f40dd44f72039b44a706a806761d201, type: 3}
+  EarthQuakeSound: {fileID: 8300000, guid: 2eff151b1bd7f8f46becbb97e20cc8ca, type: 3}
+  MasterVolumn: {fileID: 24300002, guid: 23d7605aeeb509342b06daf8e0ebc213, type: 2}
+  BGMVolumn: {fileID: 412307499123834604, guid: 23d7605aeeb509342b06daf8e0ebc213, type: 2}
+  SFXVolumn: {fileID: 4656095844416825428, guid: 23d7605aeeb509342b06daf8e0ebc213, type: 2}
+  ButtonVolumn: {fileID: 6914491056451706097, guid: 23d7605aeeb509342b06daf8e0ebc213, type: 2}
+  EnemyVolumn: {fileID: 7092669976438524404, guid: 23d7605aeeb509342b06daf8e0ebc213, type: 2}
+  PlayerVolumn: {fileID: -2371231946879808470, guid: 23d7605aeeb509342b06daf8e0ebc213, type: 2}

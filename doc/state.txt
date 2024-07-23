@@ -1,0 +1,51 @@
+Use Hierarchy State Machine
+
+PlayerStateMachine: manage all the state
+
+4 Main State:
+PlayerState: parent state
+-Airbone State: 6
+	Fall
+	Jump
+	Edge grab
+	Edge idle
+	Ladder Grab
+	Wall Slide
+
+-Grounded State: 5
+	Crouch
+	Dash	
+	Idle
+	Run 
+	Slide
+-Hit State: 2
+	Death
+	Hurt
+-Attack State: 2
+	Attack
+	Dash Attack
+
+-DashState
+	Dash
+
+
+-nếu bị rung camera khi di chuyển thì vào phần Body của Virtual Camera chuyển X Damping về 0
+
+- không được dùng vector2 ở nút di chuyển để đk jump
+
+-dùng Animator.speed = 0f và =1f để pause animation
+
+- bug:
+	khi crounch, nếu dùng dash thì sau khi thả crouch sẽ bị dash---V
+	khi sau khi jump ra khỏi edge thì bị chuyển sang run---V xảy ra khi nhảy sang hướng đối diện với tương vì khi nhảy sẽ rotation Player và do BoxPhysic không cân với player nên bị chuyển sang trạng thái Ground
+	wall slide lỗi---V
+	run ko chuyển sang fall---V
+	Ladder lỗi---V
+	Crouch lỗi---V
+
+	wall slide lỗi ngược animation--V
+
+	Ghost Effect dash and wallSlide
+	dust effect runing
+
+

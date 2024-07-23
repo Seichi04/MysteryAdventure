@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ed8117da76c9c84099e1e8fdfdb4bfe, type: 3}
+  m_Name: Player1
+  m_EditorClassIdentifier: 
+  <BaseHealth>k__BackingField: 7
+  <BaseShield>k__BackingField: 1
+  <AirborneStateData>k__BackingField:
+    <BaseJumpForce>k__BackingField: 20
+    <BaseFallSpeed>k__BackingField: 4
+    <BaseLadderSpeed>k__BackingField: 5
+    <BaseWallSlideSpeed>k__BackingField: 2.5
+    <EdgeStateData>k__BackingField:
+      <AntiGravityForce>k__BackingField: 0.59
+    <FallStateData>k__BackingField:
+      <FallSpeedModifier>k__BackingField: 1
+      <SpeedModifier>k__BackingField: 1
+    <JumpStateData>k__BackingField:
+      <JumpForceModifier>k__BackingField: 1
+      <SpeedModifier>k__BackingField: 1
+    <LadderGrabStateData>k__BackingField:
+      <LadderSpeedModifier>k__BackingField: 1
+      <AntiGravityForce>k__BackingField: 0.59
+    <WallSlideStateData>k__BackingField:
+      <WallSlideSpeedModifier>k__BackingField: 1
+  <GroundedStateData>k__BackingField:
+    <BaseSpeed>k__BackingField: 15
+    <BaseSlideForce>k__BackingField: 30
+    <CrouchStateData>k__BackingField:
+      <SpeedModifier>k__BackingField: 0
+    <IdleStateData>k__BackingField:
+      <SpeedModifier>k__BackingField: 0
+    <RunStateData>k__BackingField:
+      <SpeedModifier>k__BackingField: 1
+    <SlideStateData>k__BackingField:
+      <SlideForceModifier>k__BackingField: 1
+      <TimeSlideMin>k__BackingField: 0.3
+      <TimeSlideMax>k__BackingField: 0.5
+      <SlideCoolDown>k__BackingField: 0.5
+  <AttackStateData>k__BackingField:
+    <BaseAttack>k__BackingField: 1
+    <NomalAttackStateData>k__BackingField:
+      <AttackModifier>k__BackingField: 1
+    <DashAttackStateData>k__BackingField:
+      <AttackModifier>k__BackingField: 2
+    <AttackCoolDown>k__BackingField: 0.12
+  <HitStateData>k__BackingField:
+    <ForceKnockback>k__BackingField: {x: 10, y: 10}
+    <HurtCoolDown>k__BackingField: 1
+  <DashStateData>k__BackingField:
+    <BaseDashForce>k__BackingField: 40
+    <DashForceModifier>k__BackingField: 1
+    <TimeDash>k__BackingField: 0.2
+    <DashCoolDown>k__BackingField: 1
+  <PlayerAnimationData>k__BackingField:
+    EdgeString: IsEdge
+    WallSlideString: IsWallSlide
+    JumpString: IsJump
+    FallString: IsFall
+    LadderGrabString: IsLadderGrab
+    IdleString: IsIdle
+    RunString: IsRun
+    SlideString: IsSlide
+    CrouchString: IsCrouch
+    NomalAttackString: IsNomalAttack
+    DashAttackString: IsDashAttack
+    HurtString: IsHurt
+    DeathString: IsDeath
+    DashString: IsDash
+    GroundedString: IsGrounded
+    AirborneString: IsAirborne
+    AttackString: IsAttack
+    HitString: IsHit

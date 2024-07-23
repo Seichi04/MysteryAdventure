@@ -1,0 +1,15 @@
+trạng thái bình thường: 
+    Attack1: đi về góc bắn 1 gai đá ( gai đá sẽ bị phá hủy) - shoot1 state  --V
+    Attack2: chuyển sang trạng thái bất tử và dash từ đầu đến cuối sân - immune1 --V
+    Attack3: sau trạng thái sáng lên sẽ chuyển sang melee và mở gai ở phần sân có player -thorn state --V
+
+
+Dưới 50% máu:
+    Attack2: chuyển sang trạng thái bất tử và dash từ đầu đến cuối sân - immune1
+    Attack4: trạng thái bất tử: giải phóng điện từ - immune2
+    Attack5: trạng thái bắn tia sẽ bắn ra nhiều gai đá, gai đó sẽ gắn lên tường có thể đứng - shoot2
+    Attack6: trạng thái bắn laze: lên không trung rồi xả laze trên toàn sân - laser
+
+
+-bug:
+    
